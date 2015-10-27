@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>led-red-control-md.png</file>
+        <file>red-led-off-md.png</file>
+        <file>toggle_on.png</file>
+        <file>toggle_off.png</file>
+        <file>on_btn.png</file>
+        <file>off_btn.png</file>
+    </qresource>
+</RCC>
