@@ -21,3 +21,9 @@ FORMS    += screen1.ui
 
 RESOURCES += \
     resources.qrc
+
+# deployment on Linux
+unix {
+    target.path = /usr/bin/
+    INSTALLS += target \
+}
