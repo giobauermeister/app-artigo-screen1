@@ -1,0 +1,10 @@
+[Unit]
+Description=Starts Qt Checkin Kiosk Demo
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/qt-artigo-embarcados.sh
+
+[Install]
+WantedBy=multi-user.target
