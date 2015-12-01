@@ -1,0 +1,10 @@
+[Unit]
+Description=Starts Embarcados Qt demo applicatio screen1
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/qt-artigo-embarcados-screen1.sh
+
+[Install]
+WantedBy=multi-user.target
