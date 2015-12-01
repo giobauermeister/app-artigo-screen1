@@ -20,10 +20,48 @@
    <property name="styleSheet">
     <string notr="true">background-color: rgb(70, 70, 70);</string>
    </property>
+   <widget class="QLabel" name="ledON">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>90</y>
+      <width>150</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/images/led-red-control-md.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ledOFF">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>90</y>
+      <width>150</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/images/red-led-off-md.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
    <widget class="QPushButton" name="btnON">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>360</x>
       <y>310</y>
       <width>250</width>
       <height>150</height>
@@ -58,7 +96,7 @@
    <widget class="QPushButton" name="btnOFF">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>360</x>
       <y>310</y>
       <width>250</width>
       <height>150</height>
@@ -90,48 +128,6 @@
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="ledON">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>110</y>
-      <width>100</width>
-      <height>100</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="resources.qrc">:/images/led-red-control-md.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="ledOFF">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>110</y>
-      <width>100</width>
-      <height>100</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="resources.qrc">:/images/red-led-off-md.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <zorder>ledON</zorder>
-   <zorder>btnON</zorder>
-   <zorder>btnOFF</zorder>
-   <zorder>ledOFF</zorder>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
