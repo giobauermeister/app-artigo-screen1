@@ -23,7 +23,7 @@
    <widget class="QLabel" name="ledON">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>440</x>
       <y>90</y>
       <width>150</width>
       <height>150</height>
@@ -42,7 +42,7 @@
    <widget class="QLabel" name="ledOFF">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>440</x>
       <y>90</y>
       <width>150</width>
       <height>150</height>
@@ -61,7 +61,7 @@
    <widget class="QPushButton" name="btnON">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>390</x>
       <y>310</y>
       <width>250</width>
       <height>150</height>
@@ -96,7 +96,7 @@
    <widget class="QPushButton" name="btnOFF">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>390</x>
       <y>310</y>
       <width>250</width>
       <height>150</height>
